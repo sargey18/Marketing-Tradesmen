@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    background-color: #2E4857;
+    color: #fff;
+}
+
+.nav-items .nav-list {
+    list-style: none;
+}
+
+/*
+
+#FED231
+
+#2E4857
+
+
+*/
