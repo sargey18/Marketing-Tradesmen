@@ -210,23 +210,23 @@ li.move-right {
         line-height: initial;
     }
 
-    .menu-icons {
+    header .container nav .menu-icons {
         display: block;
     }
 
-    .fa-times{
+    header .container nav .menu-icons .fa-times{
         display: none;
     }
 
-    nav.active .fa-times {
+    header .container nav.active .menu-icons .fa-times {
         display: block;
     }
 
-    nav.active .fa-bars {
+    header .container nav.active .menu-icons .fa-bars {
         display: none;
     }
 
-    nav.active .nav-list{
+     nav.active .nav-list{
         display: flex;
     }
 
