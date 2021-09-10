@@ -237,13 +237,111 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 }
 
 
-
-
-
 /* banner end --------------------------------------------------------------------------*/
 
 
+/*reviews start -----------------------------------------------------------------------------*/
+
+#testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.testimonial-heading {
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-heading h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    background-color: #202020;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+#testimonials .testimonial-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#testimonials .testimonial-box-container .testimonial-box {
+    width: 80%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-user strong {
+    color: #3d3d3d;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+}
+
+.testimonial-box-container .testimonial-box .box-top .reviews {
+    color: #ebd61d;
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.client-comment p {
+    font-size: 2rem;
+    color: #4b4b4b;
+}
+/*reviews finish -----------------------------------------------------------------------------*/
+
+
 /* media queries start -------------------------------------------------------------------  */
+
+@media(max-width:1060px) {
+    .testimonial-box{
+        width: 45%;
+        padding: 10px;
+    }
+}
 
 @media screen and (max-width: 850px) {
     .nav-list {
@@ -305,5 +403,14 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
      nav.active .nav-list{
         display: flex;
     }
+
+}
+
+@media(max-width:790px) {
+    .testimonial-box{
+        width: 100%;
+    }
+
+ 
 
 }
