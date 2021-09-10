@@ -334,6 +334,29 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 /*reviews finish -----------------------------------------------------------------------------*/
 
 
+/*steps section start--------------------------------------------------------------------------*/
+
+.steps-background{
+    background:#eee ;
+}
+.step-container{
+    display: flex;
+}
+
+.step-container div{
+    flex: 1;
+}
+
+.step-container .step-image-container img{
+    width: 50%;
+    clip-path: circle();
+}
+
+
+
+/*steps section end--------------------------------------------------------------------------*/
+
+
 /* media queries start -------------------------------------------------------------------  */
 
 @media(max-width:1060px) {
