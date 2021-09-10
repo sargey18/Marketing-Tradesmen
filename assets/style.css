@@ -339,17 +339,53 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 .steps-background{
     background:#eee ;
 }
+
+.step-by-step-heading {
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .step-container{
     display: flex;
+    padding: 40px;
 }
 
 .step-container div{
     flex: 1;
 }
 
+.step-by-step-heading h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    background-color:rgb(9, 71, 94);
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.step-by-step-heading h1 span {
+    color: #b4a40d;
+}
+
+.step-container .step-image-container{
+    text-align: center;
+}
+
 .step-container .step-image-container img{
     width: 50%;
     clip-path: circle();
+}
+
+.step-container .step-text-container h2{ 
+    font-size: 3rem;
+}
+
+.step-container .step-text-container p{ 
+    font-size: 2rem;
+    margin-top: 40px;
 }
 
 
@@ -359,11 +395,17 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 
 /* media queries start -------------------------------------------------------------------  */
 
+
+
 @media(max-width:1060px) {
     .testimonial-box{
         width: 45%;
         padding: 10px;
     }
+}
+
+@media(max-width:1020px) {
+    /*flex wrap and image size*/
 }
 
 @media screen and (max-width: 850px) {
