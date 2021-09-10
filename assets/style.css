@@ -171,6 +171,11 @@ li.move-right {
     line-height: initial;
 }
 
+header .container nav .nav-list .highlight {
+    color: #b4a40d;
+    font-weight: 900;
+}
+
 header .container nav .nav-list .sub-menu .highlight {
     color: #b4a40d;
     font-weight: 900;
@@ -272,7 +277,6 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -351,11 +355,13 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 }
 .step-container{
     display: flex;
+    flex-wrap: wrap;
     padding: 40px;
 }
 
 .step-container div{
     flex: 1;
+    min-width: 300px;
 }
 
 .step-by-step-heading h1 {
@@ -375,18 +381,24 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 }
 
 .step-container .step-image-container img{
-    width: 50%;
+    width: 300px;
     clip-path: circle();
 }
 
 .step-container .step-text-container h2{ 
     font-size: 3rem;
+    text-align: center;
 }
 
 .step-container .step-text-container p{ 
     font-size: 2rem;
     margin-top: 40px;
+    text-align: center;
 }
+
+
+
+
 
 
 
@@ -404,9 +416,7 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
     }
 }
 
-@media(max-width:1020px) {
-    /*flex wrap and image size*/
-}
+
 
 @media screen and (max-width: 850px) {
     .nav-list {
@@ -422,8 +432,15 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
         overflow-y: scroll;
     }
 
+
+
     .nav-list > li {
         line-height: 6rem;
+    }
+
+    
+    .nav-list > li a {
+        font-size: 2rem;
     }
 
     .sub-menu {
@@ -470,6 +487,8 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
     }
 
 }
+
+
 
 @media(max-width:790px) {
     .testimonial-box{
