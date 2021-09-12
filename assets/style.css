@@ -487,7 +487,7 @@ ul{
 .pricing{
 	min-height: 100vh;
 	padding: 100px 0;
-	background-color: #292727;
+	background-color: #eee;
 	--color-1:#5b58e8;
 	--color-2:#ffc600;
 	--color-3:#fc3c7f;
@@ -505,7 +505,7 @@ ul{
 }
 .pricing .switch-table .text-monthly,
 .pricing .switch-table .text-yearly{
-	color: #ffffff;
+	color: #333;
 	text-transform: capitalize;
 	font-size: 18px;
 	transition: color 0.3s ease;
@@ -555,7 +555,7 @@ ul{
 .pricing .style-1 .pricing-table-body ul li i.fa-check,
 .pricing .style-1 .pricing-table-footer a,
 .pricing .style-1 .pricing-table-header{
-   background-color: var(--color-1);
+   background-color: var(--color-2);
 }
 .pricing .style-2 .pricing-table-body ul li i.fa-check,
 .pricing .style-2 .pricing-table-footer a,
@@ -565,7 +565,7 @@ ul{
 .pricing .style-3 .pricing-table-body ul li i.fa-check,
 .pricing .style-3 .pricing-table-footer a,
 .pricing .style-3 .pricing-table-header{
-   background-color: var(--color-3);
+   background-color: var(--color-2);
 }
 .pricing .pricing-table-header h3{
 	font-size: 30px;
@@ -609,7 +609,8 @@ ul{
 	padding:0 30px;
 }
 .pricing .pricing-table-body ul li{
-	font-weight: 300;
+	font-size: 2rem;
+    font-weight: 300;
 	color: #777777;
 	margin-bottom: 15px;
 	position: relative;
