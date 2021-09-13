@@ -679,9 +679,8 @@ ul{
     position: relative;
     top: 150px;
     left: 450px;
-  
-
 }
+
 .faq-wrapper{
     background-color: #ffffff;
     margin-bottom: 20px;
@@ -815,6 +814,11 @@ ul{
     .article-container {
         gap: 2rem;
     }
+
+    .faq-container{
+
+        left: 350px;
+    }
 }
 
 @media(max-width:1219px) {
@@ -923,6 +927,15 @@ ul{
     }
 }
 
+@media(max-width:778px) {
+    .faq-container{
+
+        left: 250px;
+    }
+}
+
+
+
 @media(max-width: 767px){
 	.pricing .pricing-table{
 		width: calc(100% - 30px);
@@ -937,6 +950,14 @@ ul{
 @media(max-width: 767px){
     .footer-col {
         width: 100%;
+    }
+}
+
+@media(max-width:522px) {
+    .faq-container{
+        width: 45%;
+        min-width: 300px;
+        left: 150px;
     }
 }
 
