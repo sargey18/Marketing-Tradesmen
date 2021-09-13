@@ -435,6 +435,7 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
     background: white;
     border-radius: 20px;
     transition: 0.3s;
+
 } 
 
 .article-card:hover {
@@ -808,6 +809,14 @@ ul{
 /*footer ----------------------------------------------------------------------------*/
 
 /* media queries start -------------------------------------------------------------------  */
+
+
+@media(max-width:1639px) {
+    .article-section .article-container .hide-this-first{
+        display: none;
+        
+ }
+}
 
 
 @media(max-width:1339px) {
