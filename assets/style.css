@@ -725,6 +725,39 @@ ul{
 
 /*faq end ---------------------------------------------------------------------------*/
 
+/*about start------------------------------------------------------------------------ */
+
+.about {
+    height: 80vh;
+    margin-top: 40px;
+
+}
+
+.about .about-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about-container .step-text-container .about-title {
+    padding-top: 20px;
+}
+
+.about .about-container .about-btn{
+    margin-top: 20px;
+}
+
+.about .about-container .about-btn .btn {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #eee;
+ 
+}
+
+
+/*about end------------------------------------------------------------------------ */
 
 
 /*footer ----------------------------------------------------------------------------*/
@@ -924,6 +957,16 @@ ul{
 	}
 }
 
+
+
+@media(max-width:917px) {
+    .about {
+        height: 100vh;
+        margin-top: 40px;
+    
+    }
+}
+
 @media(max-width:915px) {
     .article-section .article-container .hide-this{
         display: block;
@@ -983,8 +1026,12 @@ ul{
     }
 }
 
-@media(max-width:507px){
-  
+@media(max-width:445px) {
+    .about {
+        height: 100vh;
+        margin-top: 80px;
+    
+    }
 }
 
 
