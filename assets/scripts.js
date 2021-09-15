@@ -1,17 +1,32 @@
 //all selectors 
 
-//selector for the navbar 
+//selector for the navbar ---------------------------------
 const selectElement = (element) => document.querySelector(element);
 //sector for the pricing on home page (toggle switch)
 const toggleSwitch = document.querySelector(".toggle-switch");
 
-//javascript for the faq
+//javascript for the faq----------------------
 //gets the class faq-toggle
 let toggles = document.getElementsByClassName('faq-toggle');
 //gets the class name faq-content
 let contentDiv = document.getElementsByClassName('faq-content');
 //gets the class name icon
 let icons = document.getElementsByClassName('icon');
+
+
+//for the video player------------------------------
+const video = document.querySelector('video');
+const progressRange = document.querySelector('.progress-range');
+const progressBar = document.querySelector('.progress-bar');
+const playBtn = document.getElementById('play-btn');
+const volumeIcon = document.getElementById('volume-icon');
+const volumeRange = document.querySelector('.volume-range');
+const volumeBar = document.querySelector('.volume-bar');
+const currentTime = document.querySelector('.time-elapsed');
+const duration = document.querySelector('.time-duration');
+const fullscreenBtn = document.querySelector('.fullscreen');
+
+
 
 
 //on click listener for the navbar toggle
@@ -58,3 +73,52 @@ for(let i=0; i<toggles.length; i++){
         }
     });
 }
+
+//for the video player---------------------------------------------------------------------
+
+// Play & Pause ----------------------------------- //
+
+function showPlayIcon() {
+    playBtn.classList.replace('fa-pause', 'fa-play');
+    playBtn.setAttribute('title', 'Play');
+}
+
+function togglePlay() {
+    if (video.paused) {
+        video.play();
+        playBtn.classList.replace('fa-play', 'fa-pause');
+        playBtn.setAttribute('title', 'Pause');
+    } else {
+        video.pause();
+        showPlayIcon();
+    }
+}
+
+//on video end, show play button icon 
+video.addEventListener('ended', showPlayIcon);
+// Progress Bar ---------------------------------- //
+
+
+
+// Volume Controls --------------------------- //
+
+
+
+// Change Playback Speed -------------------- //
+
+
+
+// Fullscreen ------------------------------- //
+
+
+//for the video player---------------------------------------------------------------------
+
+
+
+
+
+//event listeners ------------------------------------------------
+
+//event listeners for the video
+playBtn.addEventListener('click', togglePlay);
+video.addEventListener('click', togglePlay);
