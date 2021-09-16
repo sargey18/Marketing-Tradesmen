@@ -1054,6 +1054,13 @@ ul{
 
 /* contact start -----------------------------------------------------------------*/
 
+.form-section {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
 
 .form-container {
     width: 480px;
@@ -1073,6 +1080,14 @@ ul{
   
   .form-group {
     height: 65px;
+  }
+
+  form .form-text {
+      height: 270px ;
+  }
+
+  form .form-text input{
+      height: 20rem;
   }
   
   label {
@@ -1122,15 +1137,7 @@ ul{
     outline: none;
   }
   
-  .message-container {
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 90%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    color: black;
-  }
+
 
 
 
