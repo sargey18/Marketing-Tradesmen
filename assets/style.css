@@ -875,7 +875,7 @@ ul{
   
   .fa-play:hover,
   .fa-pause:hover {
-    color: var(--primary-color);
+    color: #eee;
     cursor: pointer;
   }
   
