@@ -345,6 +345,7 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 
 .steps-background{
     background:#eee ;
+    border-radius: 25px;
 }
 
 .step-by-step-heading {
@@ -881,6 +882,7 @@ ul{
     font-weight: 800;
     padding: 5px;
     margin-bottom: 2rem;
+    text-align: center;
 
 }
 
@@ -890,6 +892,7 @@ ul{
     font-weight: 800;
     line-height: 1rem;
     padding-bottom: 2rem;
+    text-align: center;
 
 }
 
@@ -899,12 +902,22 @@ ul{
 
 }
 
-.text-section-border .text-section-responsive .text-section-content a .btn-profile {
-    width: 4rem;
-    background-color: #ffc600;
+
+.text-section-border .text-section-responsive a .btn-profile {
+    background-color: #b4a40d;
     color: rgb(9, 71, 94);
-    font-size: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 20px 20px 50px grey;
+    font-weight: 600;
 }
+
+.text-section-border .text-section-responsive a .btn-profile:hover {
+    background-color: #cabc3e;
+}
+
 
 
 
