@@ -63,7 +63,7 @@ nav {
 .logo {
     width: 5rem;
     height: 5rem;
-    background-color: #b4a40d;
+    background-color: red;
     display: flex;
     border-radius: 100%;
     margin-right: 5rem;
@@ -925,8 +925,8 @@ ul{
 /*video player start------------------------------------------------------------------------*/
 
 
-.video-fas {
-    color: var(--font-color);
+div .video-fas {
+    color: red;
     font-size: 35px;
   }
   
@@ -942,6 +942,8 @@ ul{
   
   video {
     border-radius: 5px;
+    width: 100%;
+    height: auto;
   
   }
   
@@ -1112,71 +1114,7 @@ ul{
     transform: translateY(-50%);
   }
   
-  /* Media Query: Large Smartphone (Vertical) */
-  @media screen and (max-width: 600px) {
-  
-  
-    .video-fas {
-      font-size: 20px;
-    }
-  
-    .controls-container {
-      height: 50px;
-    }
-  
-    .control-group {
-      position: relative;
-      top: -25px;
-    }
-  
-    .progress-range {
-      width: 100%;
-      top: 0;
-      left: 0;
-      border-radius: 0;
-    }
-  
-    .progress-bar {
-      border-radius: 0;
-    }
-  
-    .volume-range {
-      width: 50px;
-      left: 30px;
-      top: -15px;
-    }
-  
-    .speed,
-    .time {
-      top: 3px;
-    }
-  
-    select {
-      font-size: 12px;
-    }
-  
-    .time {
-      font-size: 12px;
-    }
-  }
-  
-  /* Media Query: Large Smartphone (Horizontal) */
-  @media screen and (max-width: 900px) and (max-height: 500px) {
-    .player {
-      max-height: 95vh;
-      max-width: auto;
-    }
-  
-    video {
-      height: 95vh;
-      object-fit: cover;
-    }
-  
-    .video-fullscreen {
-      height: 97.5vh;
-      border-radius: 0;
-    }
-  }
+
   
 
 
@@ -1428,7 +1366,57 @@ ul{
     }
 }
 
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 800px) {
+  
+    .player {
+        min-width: 0;
+        max-width: 95vw;
+    }
 
+    .video-fas {
+      font-size: 20px;
+    }
+  
+    .controls-container {
+      height: 50px;
+    }
+  
+    .control-group {
+      position: relative;
+      top: -25px;
+    }
+  
+    .progress-range {
+      width: 100%;
+      top: 0;
+      left: 0;
+      border-radius: 0;
+    }
+  
+    .progress-bar {
+      border-radius: 0;
+    }
+  
+    .volume-range {
+      width: 50px;
+      left: 30px;
+      top: -15px;
+    }
+  
+    .speed,
+    .time {
+      top: 3px;
+    }
+  
+    select {
+      font-size: 12px;
+    }
+  
+    .time {
+      font-size: 12px;
+    }
+}
 
 
 @media(max-width:790px) {
@@ -1473,11 +1461,38 @@ ul{
     }
 }
 
+
+
+
+
+  
+
+
 @media(max-width:522px) {
     .faq-container{
         width: 45%;
         min-width: 300px;
         left: 150px;
+    }
+}
+
+
+
+/* Media Query: Large Smartphone (Horizontal) */
+@media screen and (max-width: 900px) and (max-height: 500px) {
+    .player {
+      max-height: 95vh;
+      max-width: auto;
+    }
+  
+    video {
+      height: 95vh;
+      object-fit: cover;
+    }
+  
+    .video-fullscreen {
+      height: 97.5vh;
+      border-radius: 0;
     }
 }
 
