@@ -1372,16 +1372,20 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 
 @media(max-width:917px) {
     .about {
-        height: 100vh;
-        margin-top: 40px;
+        height: 80vh;
+        margin-top: 10px;
     
     }
+
+
 }
 
 @media(max-width:915px) {
     .article-section .article-container .hide-this{
         display: block;
     }
+
+
 }
 
 /* Media Query: Large Smartphone (Vertical) */
@@ -1516,8 +1520,8 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 
 @media(max-width:445px) {
     .about {
-        height: 100vh;
-        margin-top: 80px;
+        height: 80vh;
+        margin-top: 10px;
     
     }
 }
