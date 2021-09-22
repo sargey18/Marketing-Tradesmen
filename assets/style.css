@@ -1059,7 +1059,7 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
   }
   
   .volume-bar {
-    background: var(--font-color);
+    background: #b4a40d;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -1067,7 +1067,7 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
   }
   
   .volume-bar:hover {
-    background: var(--primary-color);
+    background: #b4a40d;
   }
   
   /* Right Controls ---------------------------- */
