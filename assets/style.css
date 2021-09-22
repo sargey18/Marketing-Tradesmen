@@ -925,7 +925,7 @@ ul{
 /*video player start------------------------------------------------------------------------*/
 
 
-div .video-fas {
+div .video-fas, .player .show-controls .controls-container .control-group .controls-left .volume .volume-icon .fas {
     color: #eee;
     font-size: 35px;
   }

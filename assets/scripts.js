@@ -35,47 +35,47 @@ const form = document.getElementById('form');
 
 //on click listener for the navbar toggle
 selectElement('.menu-icons').addEventListener('click', () => {
-    selectElement('nav').classList.toggle('active');
+  selectElement('nav').classList.toggle('active');
 })
 
 
 //toggle switch function. removes and adds pricing main if toggle switch is checked
-toggleSwitch.addEventListener("change",() =>{
-  if(toggleSwitch.checked){
-      document.querySelector(".pricing-main").classList.add("active");
+toggleSwitch && toggleSwitch.addEventListener("change", () => {
+  if (toggleSwitch.checked) {
+    document.querySelector(".pricing-main").classList.add("active");
   }
-  else{
-      document.querySelector(".pricing-main").classList.remove("active");
+  else {
+    document.querySelector(".pricing-main").classList.remove("active");
   }
 });
 
 
 //for the faq on the home page
 
-for(let i=0; i<toggles.length; i++){
-    toggles[i].addEventListener('click', ()=>{
-        if( parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight){
-            contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
-            toggles[i].style.color = "#0084e9";
-            icons[i].classList.remove('fa-plus');
-            icons[i].classList.add('fa-minus');
-        }
-        else{
-            contentDiv[i].style.height = "0px";
-            toggles[i].style.color = "#111130";
-            icons[i].classList.remove('fa-minus');
-            icons[i].classList.add('fa-plus');
-        }
+for (let i = 0; i < toggles.length; i++) {
+  toggles[i].addEventListener('click', () => {
+    if (parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight) {
+      contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
+      toggles[i].style.color = "#0084e9";
+      icons[i].classList.remove('fa-plus');
+      icons[i].classList.add('fa-minus');
+    }
+    else {
+      contentDiv[i].style.height = "0px";
+      toggles[i].style.color = "#111130";
+      icons[i].classList.remove('fa-minus');
+      icons[i].classList.add('fa-plus');
+    }
 
-        for(let j=0; j<contentDiv.length; j++){
-            if(j!==i){
-                contentDiv[j].style.height = "0px";
-                toggles[j].style.color = "#111130";
-                icons[j].classList.remove('fa-minus');
-                icons[j].classList.add('fa-plus');
-            }
-        }
-    });
+    for (let j = 0; j < contentDiv.length; j++) {
+      if (j !== i) {
+        contentDiv[j].style.height = "0px";
+        toggles[j].style.color = "#111130";
+        icons[j].classList.remove('fa-minus');
+        icons[j].classList.add('fa-plus');
+      }
+    }
+  });
 }
 
 //for the video player---------------------------------------------------------------------
@@ -83,10 +83,10 @@ for(let i=0; i<toggles.length; i++){
 // Play & Pause ----------------------------------- //
 
 
-  
 
-  
-  
+
+
+
 
 
 
@@ -102,35 +102,35 @@ for(let i=0; i<toggles.length; i++){
 //form validation start ----------------------------------------------------------------
 
 function validateForm() {
-    // Use HTML constraint API to check form validity
-    isValid = form.checkValidity();
-    // If the form isn't valid
-    if (!isValid) {
-      // Style main message for an error
-      message.textContent = 'Please fill out all fields.';
-      message.style.color = 'red';
-      messageContainer.style.borderColor = 'red';
-      return;
-    }
-   
+  // Use HTML constraint API to check form validity
+  isValid = form.checkValidity();
+  // If the form isn't valid
+  if (!isValid) {
+    // Style main message for an error
+    message.textContent = 'Please fill out all fields.';
+    message.style.color = 'red';
+    messageContainer.style.borderColor = 'red';
+    return;
   }
-  
-  function storeFormData() {
-    const user = {
-      name: form.name.value,
-      phone: form.phone.value,
-      email: form.email.value,
-      website: form.website.value,
- 
-    };
-    // Do something with user data
-    console.log(user);
-  }
-  
-  function processFormData(e) {
-    e.preventDefault();
 
-  }
+}
+
+function storeFormData() {
+  const user = {
+    name: form.name.value,
+    phone: form.phone.value,
+    email: form.email.value,
+    website: form.website.value,
+
+  };
+  // Do something with user data
+  console.log(user);
+}
+
+function processFormData(e) {
+  e.preventDefault();
+
+}
 
 // form validation end -------------------------------------------------------------------
 
@@ -144,4 +144,4 @@ function validateForm() {
 
 
 // form event listeners 
-form.addEventListener('submit', processFormData);
+form && form.addEventListener('submit', processFormData);
