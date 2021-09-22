@@ -413,7 +413,7 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
    max-width: calc(100% - 80px);
 }
 
-.article-container {
+ .article-container {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
@@ -432,7 +432,7 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
     border-radius: 20px 20px 0 0;
 }
 
-.article-card {
+ .article-card {
     background: white;
     border-radius: 20px;
     transition: 0.3s;
