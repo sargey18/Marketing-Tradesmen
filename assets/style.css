@@ -494,7 +494,7 @@ ul{
 	min-height: 70vh;
 	padding: 100px 0;
 	background-color: #eee;
-	--color-2:#ffc600;
+	--color-2:#b4a40d;
 	--color-4:#3fb7ef;
 }
 .pricing .switch-table{
@@ -884,7 +884,7 @@ ul{
 
 .text-section-responsive h2 {
     font-size: 3rem;
-    color: #ffc600;
+    color: #b4a40d;
     background-color: rgb(9, 71, 94);
     border-radius: 25px;
     font-weight: 800;
