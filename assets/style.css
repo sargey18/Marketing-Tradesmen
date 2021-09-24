@@ -359,12 +359,12 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 }
 .step-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 40px;
 }
 
 .step-container div{
-    flex: 1;
+
     min-width: 200px;
 }
 
@@ -386,8 +386,10 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 }
 
 .step-container .step-image-container img{
-    width: 300px;
-    clip-path: circle();
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 2rem;
 }
 
 .step-container .step-text-container h2{ 
@@ -424,6 +426,7 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    text-align: center;
 }
 
 .article-image img {
@@ -864,7 +867,6 @@ ul{
   
   button:hover {
     filter: brightness(200%);
-    background: rgb(22, 22, 22);
   }
   
   button:focus {
