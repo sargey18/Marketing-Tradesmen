@@ -63,7 +63,7 @@ nav {
 .logo {
     width: 5rem;
     height: 5rem;
-    background-color: #b4a40d;
+    background-color: red;
     display: flex;
     border-radius: 100%;
     margin-right: 5rem;
@@ -787,7 +787,7 @@ ul{
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
        #map {
-        height: 800px;
+        height: 400px;
         width: 400px;
       }
 
