@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(9, 71, 94);
+    background-color: #eee;
     overflow-x:hidden ;
 }
 
@@ -63,7 +63,7 @@ nav {
 .logo {
     width: 5rem;
     height: 5rem;
-    background-color: red;
+    background-color: #b4a40d;
     display: flex;
     border-radius: 100%;
     margin-right: 5rem;
@@ -786,9 +786,24 @@ ul{
 
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
+
+    .contact-title {
+        margin-bottom: 20px;
+    }
+
+    .about-container-map-text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-container-map-text p{
+        flex: 1;
+    }
+
        #map {
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 100%;
       }
 
 .form-section {
@@ -797,11 +812,12 @@ ul{
     justify-content: center;
     align-items: center;
     padding-bottom: 3rem;
+    margin: 20px;
 }
 
 .form-container {
-    width: 480px;
-    height: 630px;
+    width: 90%;
+    height: 100%;
     background: white;
     display: flex;
     flex-direction: column;
@@ -1528,7 +1544,12 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
         min-width: 300px;
         left: 150px;
     }
+
+    .form-section {
+        margin-top: 80px;
+    }
 }
+
 
 @media(max-width:509px) {
     .about-margin {
