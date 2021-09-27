@@ -1186,12 +1186,21 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 .quiz-container h1{
     text-align: center;
     font-size: 4rem;
-    margin: 1rem;
+    margin-bottom: 1rem;
+    color: #b4a40d;
+}
+
+.quiz-container p{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .flex-center {
@@ -1211,7 +1220,7 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     display: none;
 }
 
-.quiz-button {
+.quiz-btn {
     font-size: 1.8rem;
     padding: 1rem 0;
     width: 20rem;
@@ -1221,14 +1230,23 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     text-decoration: none;
     color: #b4a40d;
     background-color: #eee;
+    
 }
 
-.quiz-button:hover {
+.quiz-btn:hover {
     cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185,235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
 }
 
 
-
+.quiz-btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+    
 
 
 
