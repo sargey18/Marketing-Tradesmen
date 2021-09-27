@@ -1183,14 +1183,14 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     margin: 0 auto;
 }
 
-.quiz-container h1{
+.quiz-container h1, .quiz-container h2  {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 1rem;
     color: #b4a40d;
 }
 
-.quiz-container p{
+.quiz-container .quiz-home-explain{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -1201,6 +1201,7 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50vw;
 }
 
 .flex-center {
@@ -1246,7 +1247,35 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     box-shadow: none;
     transform: none;
 }
+
+
     
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color:#eee ;
+}
+
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transition: transform;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background: #b4a40d;
+    color: #eee;
+}
+
+.choice-text {
+    padding: 1.5rem;
+}
 
 
 
