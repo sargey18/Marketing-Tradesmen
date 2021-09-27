@@ -63,7 +63,7 @@ nav {
 .logo {
     width: 5rem;
     height: 5rem;
-    background-color: #b4a40d;
+    background-color: red;
     display: flex;
     border-radius: 100%;
     margin-right: 5rem;
@@ -1164,24 +1164,6 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     top: 50%;
     transform: translateY(-50%);
   }
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1189,6 +1171,71 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 
 
 
+/*quiz pages start ----------------------------------------------------------------------------------*/
+
+.quiz-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.quiz-container h1{
+    text-align: center;
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.quiz-button {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #b4a40d;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #b4a40d;
+    background-color: #eee;
+}
+
+.quiz-button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*quiz pages end ----------------------------------------------------------------------------------*/
 
 
 
