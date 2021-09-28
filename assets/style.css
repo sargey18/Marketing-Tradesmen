@@ -1300,6 +1300,19 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     text-align: center;
 }
 
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #b4a40d;
+    margin-top: 1.5rem;
+}
+
+#progressBarFull {
+    height: 3.4rem;
+    background-color: #b4a40d;
+    width: 0%;
+}
+
 
 
 
