@@ -37,20 +37,13 @@ let questions = [
         choice4: "There are some jobs where I could have done better",
         answer: 2
     }, 
-    {
-        question: "",
-        choice1: "All of my customers recommend my services",
-        choice2: "Customers friends and family ask about who did the work and I get referals",
-        choice3: "Mostly my reviews are good, but there are some difficult customers",
-        choice4: "There are some jobs where I could have done better",
-        answer: 2
-    },
+
 
 ];
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 4;
+const MAX_QUESTIONS = 3;
 
 startGame = () => {
     questionCounter = 0;
@@ -61,6 +54,10 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+      //added the localstroage 
+
+
+
         localStorage.setItem("mostRecentScore", score);
         //go to the end page
         return window.location.assign('/end.html');
