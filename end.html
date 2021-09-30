@@ -14,24 +14,54 @@
 
     <!--content start -------------------------------------------------------->
 
-    <div class="quiz-container">
+    <div class="quiz-container quiz-container-end">
+
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore"></h1>
-            <form class="quiz-form">
-                <input
-                    class="quiz-input"
-                    type="text"
-                    name="username"
-                    id="username"
-                    placeholder="username"
-                
-                />
-                <button type="submit" class="btn" id="saveScoreBtn"
-                onclick="saveHighScore(event)"
-                >Save</button>
+
+
+
+            
+
+            <a class="quiz-btn" href="index.html">Return Home</a>
+
+        </div>
+ 
+    </div>
+
+    <div class="form-section">
+        <div class="form-container form-container-quiz">
+            <h1>Contact Details</h1>
+            <!-- Form -->
+            <form id="form">
+              <!-- Full Name -->
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" 
+                       placeholder="Full Name" required minlength="3" maxlength="100">
+              </div>
+              <!-- Phone Number -->
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" 
+                       placeholder="555-555-5555" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              </div>
+              <!-- Email Address -->
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" 
+                       placeholder="email@address.com" required>
+              </div>
+
+              <!-- Password -->
+              <div class="form-group form-text">
+                <label for="form-text">Type Your Message</label>
+                <input type="text" id="form-text" placeholder="Please enter your message here." >
+              </div>
+
+              <button type="submit">Send Message</button>
             </form>
-            <a class="btn" href="/quiz.html">Play Again</a>
-            <a class="btn" href="/">Go Home</a>
+
         </div>
     </div>
 

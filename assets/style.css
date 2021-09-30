@@ -825,6 +825,10 @@ ul{
     border-radius: 10px;
     box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
   }
+
+  .form-container-quiz {
+      width: 50%;
+  }
   
   /* Form */
   form {
@@ -1181,6 +1185,10 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
+}
+
+.quiz-container-end{
+    height: 30vh;
 }
 
 .quiz-container h1, .quiz-container h2  {
