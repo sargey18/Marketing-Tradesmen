@@ -1,10 +1,10 @@
 function populate() {
     if(quiz.isEnded()) {
-        //showScoores();
+        //showScores();
     }
      else {
     //show answers
-    let element = document.getElementById("questions");
+    let element = document.getElementById("question");
     element.innerHTML = quiz.getQuestionIndex().text;
 }
 }
