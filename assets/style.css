@@ -1177,16 +1177,28 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 
 /*quiz pages start ----------------------------------------------------------------------------------*/
 
+.quiz-border {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .quiz-grid {
     width: 600px;
     height: 500px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #eee;
     padding: 10px 50px 50px 50px;
     border-radius: 50px;
     border: 2px solid #cbcbcb;
     box-shadow: 10px 15px 5px #cbcbcb;
+
+
 }
+
+
 
 .quiz-grid h1 {
     font-family: sans-serif;
@@ -1209,11 +1221,12 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #btn0, #btn1,  #btn2, #btn3 {
     background-color: #778897;
-    width: 250px;
+    width: 40%;
     font-size: 20px;
     color: #fff;
     border: 1px solid #1d3c6a;
