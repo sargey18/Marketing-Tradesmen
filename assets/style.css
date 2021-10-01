@@ -1205,8 +1205,10 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     color: #5a6772;
 }
 
-.buttons {
+.quiz-buttons {
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #btn0, #btn1,  #btn2, #btn3 {

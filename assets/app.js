@@ -2,10 +2,11 @@ function populate() {
     if(quiz.isEnded()) {
         //showScoores();
     }
-} else {
+     else {
     //show answers
     let element = document.getElementById("questions");
     element.innerHTML = quiz.getQuestionIndex().text;
+}
 }
 
 let questions = [
