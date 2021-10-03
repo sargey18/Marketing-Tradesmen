@@ -2,12 +2,12 @@
 const question = document.querySelector('#question');  //queryselector allows us to select either class or id, the h1 tag above choice container 
 const choices = Array.from(document.querySelectorAll('.choice-text')); //we need the .choice-text to be in an array and we need to select everything with the same .choice-text name
 const progressText = document.querySelector('#progressText'); //under the title of question
-const scoreText = document.getElementById('#score'); //above the 0 in the score 
+const scoreText = document.querySelector('#score'); //above the 0 in the score 
 const progressBarFull = document.querySelector('#progressBarFull'); // between question heading and score 
 
 // creating the other variables we will need/ getting the tools to use with the ingredients
 let currentQuestion = {};
-let acceptingAnswers = false;
+let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -120,7 +120,7 @@ getNewQuestion = () => { // this is the function for getting the next question, 
 
     incrementScore = num => { // we need to increment the score 
         score +=num
-        score.innerText = score // increase the score number in text 
+        scoreText.innerText = score // increase the score number in text 
     }
 
     startGame() // call the start game function, starting the game
