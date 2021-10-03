@@ -2,12 +2,12 @@
 const question = document.querySelector('#question');  //queryselector allows us to select either class or id, the h1 tag above choice container 
 const choices = Array.from(document.querySelectorAll('.choice-text')); //we need the .choice-text to be in an array and we need to select everything with the same .choice-text name
 const progressText = document.querySelector('#progressText'); //under the title of question
-const scoreText = document.querySelector('#score'); //above the 0 in the score 
+const scoreText = document.getElementById('#score'); //above the 0 in the score 
 const progressBarFull = document.querySelector('#progressBarFull'); // between question heading and score 
 
 // creating the other variables we will need/ getting the tools to use with the ingredients
 let currentQuestion = {};
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -88,37 +88,39 @@ getNewQuestion = () => { // this is the function for getting the next question, 
             choice.innerText = currentQuestion['choice' + number] // currentquestion gives us the index that is randomized, the next part choice + number gives us the choices of answer that comes with the question
         })
 
-        availableQuestions.splice(questionsIndex, 1)
+        availableQuestions.splice(questionsIndex, 1) //takes out the question index from the randomized const
 
         acceptingAnswers = true;
     }      
     
     
-    choices.forEach(choice => {
-        choice.addEventListener('click', e => {
-            if (!acceptingAnswers) return
+    choices.forEach(choice => { // go through each choice 
+        choice.addEventListener('click', e => { // add a click event listener and put the event through a function
+            if (!acceptingAnswers) return // if it is not accepting ansers then return 
 
-            acceptingAnswers = true
-            const selectedChoice = e.target
-            const selectedAnswer = selectedChoice.dataset['number']
+            acceptingAnswers = false;
+            const selectedChoice = e.target // create a const for the event click target
+            const selectedAnswer = selectedChoice.dataset['number'] //save the event taget dataset number into a new array
 
-            let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+            let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect' // if the choice is correct toggle the green css or if it is wrong toggle the red 
 
-            if (classToApply === 'correct') {
-                incrementScore(SCORE_POINTS)
+            if (classToApply === 'correct') {  // if it is correct then how muh should we increase the score 
+                incrementScore(SCORE_POINTS) // increase score by 100 points 
             }
 
-            selectedChoice.parentElement.classList.add(classToApply)
+            selectedChoice.parentElement.classList.add(classToApply) // this adds the above when we get it right 
 
-            setTimeout(() => {
+            setTimeout(() => { // we want to see if we got the question right, so we need some time 
                 selectedChoice.parentElement.classList.remove(classToApply)
-                getNewQuestion()
+                getNewQuestion() // this will get us the new question
             }, 1000)
         })
     })
 
 
-    incrementScore = num => {
+    incrementScore = num => { // we need to increment the score 
         score +=num
-        scoreText.innerText = score
+        score.innerText = score // increase the score number in text 
     }
+
+    startGame() // call the start game function, starting the game
