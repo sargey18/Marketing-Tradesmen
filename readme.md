@@ -134,10 +134,82 @@ quiz before consultation
 ![quiz Page ](assets/images/readme/9.png "quiz Page ")
 
 
+# Scope
+A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined. This was broken into two categories:
+
+# Design
+## Colour Scheme
+The main colours used throughout the website are used to drive attention and funnel the user to the consultation quiz. 
+
+The chosen colour scheme therefore reflected as a contrast. Dark yellow and dark blue. 
+
+## Imagery
+The selected imagery is used to allow the users to quickly identify what the different content is used for (Web design, Google redg and SEO)
 
 
 
 
+
+# Features
+
+## Design Features
+Each page of the website features a consistent responsive navigational system:
+
+The header contains a concentionally placed logo in the top left of the page with a call to action for the free consultation on the left. The navigation links have a series of drop downs that subdivde the user by needs, ocupation and then skills. 
+
+The footer is reponsive but keeps the same design and features, links to key pages and articles. 
+
+The header is not sticky but there is a click to go back to the top that is there for mobile and desktop. 
+
+## Home Page
+
+The home page is divided into six sections.
+- Banner 
+- Steps 
+- Reviews 
+- Key articles 
+- Prices 
+- FAQ
+
+## The banner 
+Has a call to action for the consultation quiz. This is a plan background that allows the colors to guide the user to the key information and the call to action.
+
+## Steps 
+This section consists of three different sections each with a related image, title and description. This sections purpose is to allow the customer to understand the process of how we work. Building the website, registering on Google and then local SEO. Complete transparencey about how we work is key to build trust and develop the relationships further. 
+
+## Key articles 
+These pages are also found on the blog page, but we recommend users start here if they are thinking of promoting themselves online. This does several things, builds trust, gets the customer on the same page as us and allows for more productive conversations during the consultation. There articles cover the basics of web design for tradesmen and the benefits of running a local SEO campaign
+
+## Reviews
+The review section is a responsive section that has three five star reviews from different customers who have taken our survey. 
+
+## Prices 
+The prices section is interactive and the prices and features changes using a switch for monthly and quartarly prices. These packages are for only web development, web development and seo and a final package for web development and marketing. 
+
+## FAQ 
+The FAQ section is placed under the prices and features to answer common questions about the prices and features. This is done through a dropdown that has the most common questions and answers to why the pricing is set up like this. 
+
+## About page 
+The about pages purpose is to promote the free consultation. It does this by talking about the difficulties that tradesmen find when they start promoting themselves online and the benefits of getting feedback for what you want to do to start promoting yourself. It then has several of the key articles that we have under the consultation button, which are phrased as a question that user would have about a certain issue. This further supports the user wanting to contact us.
+
+## Contact page 
+The contact page's purpose is to allow users to contact us with any of there questions and also to show the users where we opperate around the contry. We have done this with a responsive form and a Google maps intergration where we have shown different location with different customers. 
+
+These can be clicked on with more information popping up. 
+
+I would have liked to put reviews in the map intergration, however this will be done in the future once we have these reviews to woek with. 
+
+## Our methods 
+This is our blog page and consists of articles related to working with Google, web design and local SEO for tradesmen. The top articles are the most valuable and we recommend our customers to start here with the title (start here). This gives them a good background to move forward into more detailed articles and allows us to commincate better with them during the conversation because they have this background. 
+
+There is also a video introduction at the top of the blog page explaining the kind of content that we have and how they should be used.
+
+## Articles 
+The articles are layed out in the sae way. The sees a video on the top of the page giving a quick intro to the article and what the benefits are of reading the article. 
+
+This will then be expanded on in the article with several call to action buttons to book the consultation. 
+
+Further related articles will then be displayed at the bottom of the page to encourage reading related topics. 
 
 
 
