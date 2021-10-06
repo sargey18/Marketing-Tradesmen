@@ -211,6 +211,54 @@ This will then be expanded on in the article with several call to action buttons
 
 Further related articles will then be displayed at the bottom of the page to encourage reading related topics. 
 
+## Web Services 
+The web design services are split into several sections 
+- video: video introduction of what is on the page and giving students instructions about what to do on the page 
+- description: The benefits of using a website for your online presence 
+- Web templates: Website templates that we have used in the past that customes can choose from and make the web design process smoother.
+- how to work with us: This section describes if want us to do everything for them or work with them for as partners 
+- prices: The prices monthly or quarterly 
+- related articles: After the website what do they do next, these are articles that we recommend they read to understand the seo and marketing aspects 
+
+
+## SEO Services 
+This page as far more text than the web services page. 
+
+The reason being is although many will understand what and why they need a website not many tradesmen will know about SEO and why they will need it. 
+
+This page acts as both a white pager and a landing page for our seo services by educating the users about SEO then offering our prices and related articles. 
+
+
+# Functions 
+
+These were created with javascript and adds functionality to the site 
+
+These can be found in the 
+
+## Google maps Integration  
+In the contact page the google api was intergrated and edited. Markers were added to the the page and the color was changed to match the theme of the website, this was to signify the places where we have created websites for customers. We also added a click function allowing students to click on the marker and open more information. 
+
+In the future as I mentioned above I would like to put the reviews of customers into these clickable events, but with the time constraints on the project I could not accomplish this. 
+
+## FAQ drop down 
+This was a toggle function that allows the user to click the common question and the box is then toggled from hidden to display with a transition effect showing the answer to the question. 
+
+## Prices and features
+This was on the main area and is another toggle effect with sliding animation. This was only on certain parts of the element (the price and the features that changed). This was used to show the difference in price for monthly and quartarly packages. 
+
+## video player 
+The video player was built from scratch using javascript with increased functionality. 
+
+The icons for the play pause and the volume icons will change depending on if the video is playing or if the volume is above 70% or at 0%. 
+
+There is also a function to increase or decrease the speed of the video and a full screen option. 
+
+## The quiz 
+The quiz was used to set up the free consultation 
+
+
+## The Form validator 
+
 
 
 
