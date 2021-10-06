@@ -254,11 +254,28 @@ The icons for the play pause and the volume icons will change depending on if th
 There is also a function to increase or decrease the speed of the video and a full screen option. 
 
 ## The quiz 
-The quiz was used to set up the free consultation 
+The quiz was used to set up the free consultation to allow us to narrow down which of our customers would be suitable. 
+
+We were looking for customers who have more than 18 months experience who have some tech knowledge(enough to have a discussion). 
+
+The questions and choices were dynamically added using the innerText in javascript to the relevant id's in the html. The questions and choices were all added in an array of objects with the answers added within the same array of objects as another array (this was done because some of the questions had more than one suitable answer)
+
+When the user got one of the question correct their score would increase by 100, this would then be saved into local storage. 
+
+Once the user was asked five questions they would then be taken to the ending page. This page would have a contact form where the user could contact us. 
+
+There would also be a dynamic message to the user on the page depending on if they got above 300. 
+
+We will still take the custom if they get below the 300 points, as this is a consultation but the user will now know that they need to conduct more research.
+
+If I had more time for this project I would use node.js to send the information that was saved in local storage with the information the user puts into the storage to the businesses email.
 
 
 ## The Form validator 
 
+The form validator used in the contact page and the the end page of the quiz were created to validate the user input based on the number and types of characters they entered. 
+
+If I had more time for this project I would use node.js to send the information that was saved in local storage with the information the user puts into the storage to the businesses email.
 
 
 
