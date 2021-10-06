@@ -277,6 +277,26 @@ The form validator used in the contact page and the the end page of the quiz wer
 
 If I had more time for this project I would use node.js to send the information that was saved in local storage with the information the user puts into the storage to the businesses email.
 
+# Issues and bugs 
+
+features overlay 
+array for quiz 
+
+## Issue one the video player 
+
+This issue was caused by two independent issues. 
+
+- The first was I started to put all the javascript into a single js file, this caused any failure to crash all the script.
+- The second was a small spelling mistake in the scripts tag in the blog page (the first page to text the videos)
+
+This was solved firstly by creating different js files for different components. 
+
+The second was traced to its source by using the console in the google dev tools. Since there was nothing showing up in the tools I thought that the mistakes would be in the html and using the controle f I found the mistake. 
 
 
+## Issue the features mobile responsiveness 
+
+The was something in the features that was causing the homepage to not be responsive past 500px. I could not find the issue even when changing the color of certain elements, 
+
+I solved this by dowloading a developer tool called unicorn revieler 
 
