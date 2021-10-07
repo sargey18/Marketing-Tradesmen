@@ -119,9 +119,7 @@ choices.forEach(choice => { // go through each choice
         const selectedAnswer = Number(selectedChoice.dataset['number']) //save the event taget dataset number into a new array
 
         console.log({ selectedAnswer });
-        /*const correctAnswer = typeof currentQuestion.answer === 'number'
-            ? selectedAnswer === currentQuestion.answer
-            : currentQuestion.answer.includes(selectedAnswer);*/
+
         const correctAnswer = currentQuestion.answer.includes(selectedAnswer);
 
         let classToApply = correctAnswer ? 'correct' : 'incorrect' // if the choice is correct toggle the green css or if it is wrong toggle the red 

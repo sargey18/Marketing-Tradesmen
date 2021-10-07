@@ -298,5 +298,22 @@ The second was traced to its source by using the console in the google dev tools
 
 The was something in the features that was causing the homepage to not be responsive past 500px. I could not find the issue even when changing the color of certain elements, 
 
-I solved this by dowloading a developer tool called unicorn revieler 
+I solved this by dowloading a developer tool called unicorn revealer, this and how handy tool instantly show all of the elements on the page and how they interact with each other.
+
+Using this tool I was able to identify which element was causing the problem and reduce it accordingly. 
+
+## The issue of multiple answer on the quiz 
+
+In the quiz app I wanted the ability to have several answer to have multiple choices. 
+
+However because I was storing all the answers questions and choices to the questions in the same array this was causing some problems. 
+
+The main issue I was having here was there was so many different choices to choose from, but most of which would include a massive rewrite to the code. With this in mind I needed some advice that was relevant to my code specifically.
+
+
+The solution that I came up with was to use a series of arrays for the answers within the array of objects that houses the questions and choices. 
+
+This would not involve a massive amount of reworking and would only allow me to edit the choices function by putting the dataset number within an array and then asigning it to a const.  
+
+It is important to note that I only came to this conclusion after discussing in depth with several developers with far more exp on discord. 
 
