@@ -273,6 +273,14 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
     width: 100%;
 }
 
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .testimonial-heading {
     letter-spacing: 1px;
     margin: 30px 0px;
