@@ -1227,7 +1227,7 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 }
 
 .quiz-title-h2 {
-    font-size: 4,2rem;
+    font-size: 4.2rem;
     margin-bottom: 4rem;
 }
 
@@ -1311,7 +1311,6 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0;
     transform: scale(1.02);
-    transform: transform 100ms;
 }
 
 .choice-prefix {
@@ -1789,7 +1788,6 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 @media screen and (max-width: 900px) and (max-height: 500px) {
     .player {
       max-height: 95vh;
-      max-width: auto;
     }
   
     video {
