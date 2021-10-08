@@ -301,14 +301,14 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
 
 }
 
-#testimonials .testimonial-box-container {
+#testimonials .testimonial-box-container, .class-testimonials .testimonial-box-container  {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-#testimonials .testimonial-box-container .testimonial-box {
+#testimonials .testimonial-box-container .testimonial-box, .class-testimonials .testimonial-box-container .testimonial-box {
     width: 80%;
     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
     background-color: #ffffff;
