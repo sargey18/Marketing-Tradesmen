@@ -174,17 +174,17 @@ li.move-right {
 }
 
 header .container nav .nav-list .highlight {
-    color: crimson;
+    color: rgb(192, 12, 48);
     font-weight: 900;
 }
 
 header .container nav .nav-list .sub-menu .highlight {
-    color: crimson;
+    color: rgb(192, 12, 48);
     font-weight: 900;
 }
 
 header .container nav .nav-list .sub-menu ul li .hightlight2{
-    color: crimson;
+    color: rgb(192, 12, 48);
     font-weight: 900;
 }
 
@@ -1491,6 +1491,16 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
  }
 }
 
+@media(max-width:1498px) {
+
+
+    .faq-container{
+
+        left: 350px;
+    }
+}
+
+
 
 @media(max-width:1339px) {
     .article-container {
@@ -1500,6 +1510,15 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     .faq-container{
 
         left: 350px;
+    }
+}
+
+@media(max-width:1239px) {
+
+
+    .faq-container{
+
+        left: 280px;
     }
 }
 
