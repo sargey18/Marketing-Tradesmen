@@ -883,7 +883,7 @@ ul{
     bottom: 3px;
   }
   
-  input {
+  input, textarea {
     width: 100%;
     height: 34px;
     padding: 5px;
@@ -893,12 +893,16 @@ ul{
     box-sizing: border-box;
     transition: all 0.3s;
   }
+
+  textarea {
+      height: 50%;
+  }
   
-  input:valid {
+  input:valid, textarea:valid {
     border: 1px solid green;
   }
   
-  input:invalid {
+  input:invalid, textarea:invalid {
     border: 1px solid red;
   }
   
