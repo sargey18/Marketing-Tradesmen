@@ -106,10 +106,12 @@ nav {
 .btn {
     padding: 1.3rem;
     display: inline-block;
+    color: #eee;
     background-color: #b4a40d;
     border: 2px solid #b4a40d;
     border-radius: 5rem;
     transition: background-color 650ms;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -172,17 +174,17 @@ li.move-right {
 }
 
 header .container nav .nav-list .highlight {
-    color: #b4a40d;
+    color: crimson;
     font-weight: 900;
 }
 
 header .container nav .nav-list .sub-menu .highlight {
-    color: #b4a40d;
+    color: crimson;
     font-weight: 900;
 }
 
 header .container nav .nav-list .sub-menu ul li .hightlight2{
-    color: #b4a40d;
+    color: crimson;
     font-weight: 900;
 }
 
@@ -239,12 +241,18 @@ header .container nav .nav-list .sub-menu ul li .hightlight2{
     color: rgb(9, 71, 94);
 }
 
+.hero-container .hero-image .hero-text a { 
+    text-decoration: none;
+    color: #eee;
+}
+
 
 .hero-container .hero-image .btn {
 
     padding: 1.3rem;
     display: inline-block;
     background-color: #b4a40d;
+    color: #eee;
     border: 2px solid #b4a40d;
     border-radius: 5rem;
     transition: background-color 650ms;
