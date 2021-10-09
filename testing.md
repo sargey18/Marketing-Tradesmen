@@ -53,6 +53,38 @@ As a new user, I want to easily navigate through the website to find the relevan
 
 # Manual Testing 
 
+Manual testing was done on the common elements that appeared on every page and the most important elements to the site. 
+
+- Home page navigation drop down --
+
+- Home Page Responsiveness --
+
+- Home page prices toggle -
+
+- Home page faq -
+
+- Contact response -
+
+- Contact page form validation -
+
+- Contact page map icons -
+
+- About Page Responsive- 
+
+- Our methods video -
+
+- Our methods responsive -
+
+- Our methods articles -
+
+- web development responsive -
+
+- SEO services responsive 
+
+- Quiz more than 300 
+
+- Quiz less than 300
+
 
 
 
