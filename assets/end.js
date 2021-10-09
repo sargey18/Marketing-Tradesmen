@@ -10,6 +10,6 @@ const GoodCustomer = () => {
     ) {
 
     }
-}
+};
 
 GoodCustomer();

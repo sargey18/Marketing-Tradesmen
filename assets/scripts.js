@@ -1,4 +1,3 @@
-//all selectors ----------------------------------------------------------------
 
 //selector for the navbar ---------------------------------
 const selectElement = (element) => document.querySelector(element);

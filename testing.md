@@ -54,3 +54,82 @@ As a new user, I want to easily navigate through the website to find the relevan
 # Manual Testing 
 
 
+
+
+
+
+
+
+# Validators 
+
+
+Line	Col	Errors
+71	14	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+74	27	'spread operator' is only available in ES6 (use 'esversion: 6').
+78	19	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+87	30	'template literal syntax' is only available in ES6 (use 'esversion: 6').
+89	35	'template literal syntax' is only available in ES6 (use 'esversion: 6').
+102	28	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+103	38	['number'] is better written in dot notation.
+113	24	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+114	40	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+119	61	['number'] is better written in dot notation.
+133	21	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+141	22	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+71	1	'startGame' is not defined.
+146	1	'startGame' is not defined.
+75	5	'getNewQuestion' is not defined.
+78	1	'getNewQuestion' is not defined.
+135	13	'getNewQuestion' is not defined.
+128	13	'incrementScore' is not defined.
+141	1	'incrementScore' is not defined.
+
+home page 
+
+response 
+
+prices 
+
+faq 
+
+jump to top
+
+navbar 
+
+
+contact page 
+
+map 
+
+form 
+
+about 
+
+methods 
+
+video player 
+
+articles x 3 
+
+website services 
+
+website templates 
+
+seo services 
+
+quiz more than 300
+
+quiz less than 300 
+
+multiple answers 
+
+form 
+
+
+
+
+
+
+
+
+
