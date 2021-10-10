@@ -320,5 +320,44 @@ It is important to note that I only came to this conclusion after discussing in 
 # Testing 
 Click this link to go to the testing file. [Testing](testing.md)
  
-deployment 
-credits 
+# Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+Log into GitHub or create an account.
+Locate the GitHub Repository.
+At the top of the repository, select Settings from the menu items.
+Scroll down the Settings page to the "GitHub Pages" section.
+Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+Upon selection, the page will automatically refresh meaning that the website is now deployed.
+Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+At the time of submitting this Milestone project the Development Branch and Master Branch are identical. 
+
+# Credits 
+
+## Content 
+All the content for this site came from [Big West Marketing] (https://bigwestmarketing.com/)
+
+The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
+
+- [we3school] (https://www.w3schools.com/)
+
+- [google cloud api docs ] (https://console.cloud.google.com/apis/dashboard)
+
+- [zero to mastery] (https://zerotomastery.io/)
+
+- [simple to code ] (https://simplestepscode.com/javascript-quiz-tutorial/)
+
+- [sitepoint] (https://www.sitepoint.com/simple-javascript-quiz/)
+
+- [log rocket] (https://blog.logrocket.com/localstorage-javascript-complete-guide/)
+
+- [Stack overflow] (https://stackoverflow.com/)
+
+- [Discord] (https://discord.com/)
+
+- [css tricks] (https://css-tricks.com/)
+
+
+
+
+
