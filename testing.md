@@ -209,9 +209,17 @@ The map
 
 
 # Browser Validation
-Chrome - test image
-Firefox - test image
 
+Chrome
+![chrome](assets/images/browser/chrome.png "Chrome")
+
+Edge
+
+![Edge](assets/images/browser/edge.png "Edge")
+
+Firefox
+
+![FireFox](assets/images/browser/fire.png "Firefox")
 
 
 

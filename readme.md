@@ -2,31 +2,27 @@
 
 ## Content 
 
-[UX ](#ux)
+- [UX ](#ux)
 
-[Development plans ](#development-planes)
+- [Development plans ](#development-planes)
 
-[Scope ](#scope)
+- [Scope ](#scope)
 
-[Structure ](#structure)
+- [Structure ](#structure)
 
-[Scope ](#scope)
+- [Features ](#features)
 
-[Features ](#features)
+- [Functions ](#functions)
 
-[Functions ](#functions)
+- [Issues and Bugs ](#issues-and-bugs)
 
-[Issues and Bugs ](#issues-and-bugs)
+- [Testing ](#testing)
 
-[Testing ](#testing)
+- [Scope ](#scope)
 
-[Scope ](#scope)
+- [Deploying on GitHub Pages ](#deploying-on-github-pages)
 
-[Deploying on GitHub Pages ](#deploying-on-github-pages)
-
-[Credits ](#credits)
-
-
+- [Credits ](#credits)
 
 
 ## Intro
@@ -34,7 +30,7 @@
 This is a comprehensive website was designed for a web development and marketing company that targets a self employed tradesmen.
 The purpose of the website was to .
 - Develop trust between potential customers and the company 
-- Automatically Segment different types of tradesmen into different target goups
+- Automatically Segment different types of tradesmen into different target groups
 - Show the users where we operate around the country 
 - Quiz the customers on how much experience they have in their respected field
 
@@ -165,6 +161,7 @@ quiz before consultation
 
 
 # Design
+
 ## Colour Scheme
 The main colours used throughout the website are used to drive attention and funnel the user to the consultation quiz. 
 
@@ -172,9 +169,6 @@ The chosen colour scheme therefore reflected as a contrast. Dark yellow and dark
 
 ## Imagery
 The selected imagery is used to allow the users to quickly identify what the different content is used for (Web design, Google redg and SEO)
-
-
-
 
 
 # Features
