@@ -90,30 +90,90 @@ Manual testing was done on the common elements that appeared on every page and t
 ![ contact maps](assets/images/testing/manual/contact-maps.gif "contact maps")
 
 
-- About Page Responsive- 
+- About Page Responsive
 
-- Our methods video -
+![ about ](assets/images/testing/manual/about-resp.gif "about responsive")
 
-- Our methods responsive -
 
-- Our methods articles -
+- Our methods video 
 
-- web development responsive -
+![ methods](assets/images/testing/manual/method-video.gif "methods")
+
+
+- Our methods responsive 
+
+![ methods](assets/images/testing/manual/method-record.gif "methods")
+
+- Our key articles 
+
+![ methods](assets/images/testing/manual/articles.gif "methods")
+
+
+- web development responsive 
+
+![ web dev ](assets/images/testing/manual/webdesign.gif "web dev")
+
 
 - SEO services responsive 
 
-- Quiz more than 300 
-
-- Quiz less than 300
+![ methods](assets/images/testing/manual/seo.gif "methods")
 
 
+- Quiz with different message depending on if they get above 300 points
+
+![ methods](assets/images/testing/manual/quiz-messages.gif "methods")
+
+
+# Validators (code Validation)
+
+## CSS Validation 
+
+The W3C Markup Validator service was used to validate the CSS code used.
+
+
+![ css](assets/images/testing/css-validator.png "css")
+
+## HTML validation 
+
+About page html 
+![ css](assets/images/testing/about-test.png "css")
+
+Article one html 
+![ html](assets/images/testing/article1-test.png "html")
+
+Article two html 
+![ html](assets/images/testing/article2-test.png "html")
+
+Article three html 
+![ html](assets/images/testing/article3-test.png "html")
+
+Article four html 
+![ html](assets/images/testing/article4-test.png "html")
+
+Article five html 
+![ html](assets/images/testing/article5-test.png "html")
+
+Article six html 
+![ html](assets/images/testing/article6-test.png "html")
+
+Article seven html 
+![ html](assets/images/testing/article7-test.png "html")
+
+Article eight html 
+![ html](assets/images/testing/article8-test.png "html")
+
+Article nine html 
+![ html](assets/images/testing/article9-test.png "html")
+
+Article ten html 
+![ html](assets/images/testing/article10-test.png "html")
 
 
 
 
 
 
-# Validators 
+
 
 
 Line	Col	Errors
