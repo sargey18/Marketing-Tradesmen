@@ -55,19 +55,40 @@ As a new user, I want to easily navigate through the website to find the relevan
 
 Manual testing was done on the common elements that appeared on every page and the most important elements to the site. 
 
-- Home page navigation drop down --
+- Home page navigation drop down 
 
-- Home Page Responsiveness --
+![ home navigation](assets/images/testing/manual/home-navigation.gif "home navigation")
 
-- Home page prices toggle -
 
-- Home page faq -
+- Home Page Responsiveness 
 
-- Contact response -
+![ home responsive](assets/images/testing/manual/home-responsive.gif "home responsive")
 
-- Contact page form validation -
 
-- Contact page map icons -
+- Home page prices toggle 
+
+![ home prices](assets/images/testing/manual/home-switch.gif "home prices")
+
+
+- Home page faq 
+
+![ home faq](assets/images/testing/manual/home-faq.gif "home faq")
+
+
+- Contact response 
+
+![ contact responsive](assets/images/testing/manual/contact-response.gif "contact responsive")
+
+
+- Contact page form validation 
+
+![ contact form](assets/images/testing/manual/contact-forms.gif "contact form")
+
+
+- Contact page map icons 
+
+![ contact maps](assets/images/testing/manual/contact-maps.gif "contact maps")
+
 
 - About Page Responsive- 
 
