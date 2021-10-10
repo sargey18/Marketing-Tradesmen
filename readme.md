@@ -1,12 +1,41 @@
 # Tradesman Marketing
 
+## Content 
+
+[UX ](#ux)
+
+[Development plans ](#development-planes)
+
+[Scope ](#scope)
+
+[Structure ](#structure)
+
+[Scope ](#scope)
+
+[Features ](#features)
+
+[Functions ](#functions)
+
+[Issues and Bugs ](#issues-and-bugs)
+
+[Testing ](#testing)
+
+[Scope ](#scope)
+
+[Deploying on GitHub Pages ](#deploying-on-github-pages)
+
+[Credits ](#credits)
+
+
+
+
 ## Intro
 
 This is a comprehensive website was designed for a web development and marketing company that targets a self employed tradesmen.
 The purpose of the website was to .
-- Develop trust beween potential customers and the company 
+- Develop trust between potential customers and the company 
 - Automatically Segment different types of tradesmen into different target goups
-- Show the users where we opperate around the country 
+- Show the users where we operate around the country 
 - Quiz the customers on how much experience they have in their respected field
 
 
@@ -134,8 +163,6 @@ quiz before consultation
 ![quiz Page ](assets/images/readme/9.png "quiz Page ")
 
 
-# Scope
-A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined. This was broken into two categories:
 
 # Design
 ## Colour Scheme
@@ -277,10 +304,12 @@ The form validator used in the contact page and the the end page of the quiz wer
 
 If I had more time for this project I would use node.js to send the information that was saved in local storage with the information the user puts into the storage to the businesses email.
 
+## Jump to top
+
+Due to the header not being sticky I added a simple icon whose job it was to allow the user to quickly jump back up to the top of the page. 
+
 # Issues and bugs 
 
-features overlay 
-array for quiz 
 
 ## Issue one the video player 
 

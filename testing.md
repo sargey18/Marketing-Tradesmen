@@ -1,8 +1,20 @@
 # Testing 
 
+
+[Manual testing](#manual-testing)
+
+[Manual testing](#validators)
+
+[Browser Validation](#browser-validation)
+
+[User testing](#user-testing)
+
+
+
 ## Testing User Stories
 
-## New/Potential User Goals:
+
+## New/Potential User Goals
 As a new user, I want to easily navigate through the website to find the relevant content for my specific needs, effortlessly.
 
 - The navigation bar is clearly defined and easily navigable for users to find and use.
@@ -92,7 +104,7 @@ Manual testing was done on the common elements that appeared on every page and t
 ![ methods](assets/images/testing/manual/quiz-messages.gif "methods")
 
 
-# Validators (code Validation)
+# Validators 
 
 ## CSS Validation 
 
