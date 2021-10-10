@@ -317,6 +317,8 @@ This would not involve a massive amount of reworking and would only allow me to 
 
 It is important to note that I only came to this conclusion after discussing in depth with several developers with far more exp on discord. 
 
-testing 
+# Testing 
+Click this link to go to the testing file. [Testing](testing.md)
+ 
 deployment 
 credits 

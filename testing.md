@@ -1,35 +1,3 @@
-Home page 
-
-the menu links hover on all pages 
-
-the menu links to pages 
-
-the mobile responsiveness of the navbar 
-
-the responsiveness of the home page 
-
-the css 
-
-the html 
-
-the javascript 
-
-
-the about page 
-
-
-The contact page 
-
-
-The blog page 
-
-the web services page 
-
-the seo services page 
-
-the quiz page/ end page 
-
-
 # Testing 
 
 ## Testing User Stories
@@ -181,13 +149,13 @@ handyman html
 ![ html](assets/images/testing/handyman-test.png "html")
 
 index html 
-![ html](assets/images/testing/index-test.png "html")
+![ html](assets/images/testing/index-text.png "html")
 
 landscapers html 
 ![ html](assets/images/testing/landscapers-test.png "html")
 
 Plumbers html 
-![ html](assets/images/testing/plumber-test.png "html")
+![ html](assets/images/testing/plumber.test.png "html")
 
 SEO html 
 ![ html](assets/images/testing/Untitleddesign1.png "html")
@@ -203,73 +171,48 @@ end html
 
 
 
+## Javascript 
+
+The javascript was tested using the javascript beautifier. 
+
+The back to top validator 
+
+![ methods](assets/images/testing/javascript/backtotop.png "methods")
+
+The ending of the quiz page 
+
+![ methods](assets/images/testing/javascript/jsonendpage.png "methods")
+
+The questions page 
+
+![ methods](assets/images/testing/javascript/questions.png "methods")
+
+The video page 
+
+![ methods](assets/images/testing/javascript/videojs.png "methods")
+
+The map 
+
+![ methods](assets/images/testing/javascript/map.png "methods")
+
+
+# Browser Validation
+Chrome - test image
+Firefox - test image
+
+
+
+
+# User testing 
+
+Several tradesmen were asked to view the site and give feedback, it was through this feedback that I settled on the current header design with the three drop downs as a way to direct users who have little to know experience with working online to the relevant materials. 
+
+Before this there were more elements in the header but this lead to confusion because many of them had never heard of topics like seo, or had little idea about online marketing. 
 
 
 
 
 
-
-Line	Col	Errors
-71	14	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-74	27	'spread operator' is only available in ES6 (use 'esversion: 6').
-78	19	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-87	30	'template literal syntax' is only available in ES6 (use 'esversion: 6').
-89	35	'template literal syntax' is only available in ES6 (use 'esversion: 6').
-102	28	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-103	38	['number'] is better written in dot notation.
-113	24	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-114	40	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-119	61	['number'] is better written in dot notation.
-133	21	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-141	22	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-71	1	'startGame' is not defined.
-146	1	'startGame' is not defined.
-75	5	'getNewQuestion' is not defined.
-78	1	'getNewQuestion' is not defined.
-135	13	'getNewQuestion' is not defined.
-128	13	'incrementScore' is not defined.
-141	1	'incrementScore' is not defined.
-
-home page 
-
-response 
-
-prices 
-
-faq 
-
-jump to top
-
-navbar 
-
-
-contact page 
-
-map 
-
-form 
-
-about 
-
-methods 
-
-video player 
-
-articles x 3 
-
-website services 
-
-website templates 
-
-seo services 
-
-quiz more than 300
-
-quiz less than 300 
-
-multiple answers 
-
-form 
 
 
 
