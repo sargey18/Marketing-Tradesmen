@@ -1332,6 +1332,12 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 }
 
 /*heads up display*/
+.quiz-container .flex-container #question  {
+    font-size: 2.5rem;
+    padding: 1rem;
+
+}
+
 #hud {
     display: flex;
     justify-content: space-between;
@@ -1346,9 +1352,7 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     text-align: center;
 }
 
-#hud .hud-item .hud-main-text {
-    color: red;
-}
+
 
 #progressBar {
     width: 20rem;
@@ -1723,7 +1727,7 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
 
 @media screen and (max-width: 768px) {
     .choice-container {
-        min-width: 40rem;
+        min-width: 30rem;
     }
 }
 

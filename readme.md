@@ -176,9 +176,9 @@ The selected imagery is used to allow the users to quickly identify what the dif
 ## Design Features
 Each page of the website features a consistent responsive navigational system:
 
-The header contains a concentionally placed logo in the top left of the page with a call to action for the free consultation on the left. The navigation links have a series of drop downs that subdivde the user by needs, ocupation and then skills. 
+The header contains a  logo in the top left of the page with a call to action for the free consultation on the left. The navigation links have a series of drop downs that divids up the user by needs, occupation and then skills. 
 
-The footer is reponsive but keeps the same design and features, links to key pages and articles. 
+The footer is responsive but keeps the same design and features, links to key pages and articles. 
 
 The header is not sticky but there is a click to go back to the top that is there for mobile and desktop. 
 
@@ -321,7 +321,7 @@ The second was traced to its source by using the console in the google dev tools
 
 The was something in the features that was causing the homepage to not be responsive past 500px. I could not find the issue even when changing the color of certain elements, 
 
-I solved this by dowloading a developer tool called unicorn revealer, this and how handy tool instantly show all of the elements on the page and how they interact with each other.
+I solved this by downloading a developer tool called unicorn revealer, this and how handy tool instantly show all of the elements on the page and how they interact with each other.
 
 Using this tool I was able to identify which element was causing the problem and reduce it accordingly. 
 
@@ -336,9 +336,26 @@ The main issue I was having here was there was so many different choices to choo
 
 The solution that I came up with was to use a series of arrays for the answers within the array of objects that houses the questions and choices. 
 
-This would not involve a massive amount of reworking and would only allow me to edit the choices function by putting the dataset number within an array and then asigning it to a const.  
+This would not involve a massive amount of reworking and would only allow me to edit the choices function by putting the dataset number within an array and then assigning it to a const.  
 
 It is important to note that I only came to this conclusion after discussing in depth with several developers with far more exp on discord. 
+
+## The unsolved issue (quiz)
+
+
+This is not an error because the code works it just annoys me that I cannot figure this out. 
+
+In the quiz code it says that question is undefined, however i was under the impression that this dot method of selecting was a valid way to select elements from objects (i.e. the question from the array of objects). 
+
+I also tested what would happen if I took the .question of the javascript and the result was as expect (see image below)
+
+![quiz Page ](assets/images/testing/javascript/unsolved.png "quiz Page ")
+
+It is also important to note that this error did not appear in the javascript validator and only appears gitpod. 
+
+
+
+
 
 # Testing 
 Click this link to go to the testing file. [Testing](testing.md)

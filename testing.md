@@ -115,6 +115,11 @@ The W3C Markup Validator service was used to validate the CSS code used.
 
 ## HTML validation 
 
+The html validator was used to validate the html
+
+- [html validator] (https://validator.w3.org/)
+
+
 About page html 
 ![ css](assets/images/testing/about-test.png "css")
 
@@ -157,7 +162,7 @@ carpet cleaners html
 Contact html 
 ![ html](assets/images/testing/contact-test.png "html")
 
-handyman html 
+end html (the warning was an empty h1 tag that the final score will appear in)
 ![ html](assets/images/testing/handyman-test.png "html")
 
 index html 
@@ -178,7 +183,7 @@ quiz start html
 quiz questions html 
 ![ html](assets/images/testing/Untitleddesign3.png "html")
 
-end html 
+handyman html 
 ![ html](assets/images/testing/Untitleddesign4.png "html")
 
 
@@ -186,6 +191,10 @@ end html
 ## Javascript 
 
 The javascript was tested using the javascript beautifier. 
+
+- [js validator] (https://codebeautify.org/jsvalidate)
+
+
 
 The back to top validator 
 
