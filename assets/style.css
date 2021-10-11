@@ -1346,6 +1346,10 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     text-align: center;
 }
 
+#hud .hud-item .hud-main-text {
+    color: red;
+}
+
 #progressBar {
     width: 20rem;
     height: 3rem;
@@ -1361,11 +1365,7 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     width: 0%;
 }
 
-@media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 40rem;
-    }
-}
+
 
 /*quiz end page start */
 
@@ -1721,7 +1721,11 @@ div .video-fas, .player .show-controls .controls-container .control-group .contr
     }
 }
 
-
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
 
 @media(max-width: 767px){
 	.pricing .pricing-table{
